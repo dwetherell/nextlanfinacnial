@@ -12,7 +12,7 @@
     @include('layouts.head-css')
 
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite('resources/js/app.js')
 
 </head>
 

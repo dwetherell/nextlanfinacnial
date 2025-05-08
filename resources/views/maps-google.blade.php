@@ -65,7 +65,7 @@
 @endsection
 @section('script')
     <!-- google maps api -->
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCtSAR45TFgZjOs4nBFFZnII-6mMHLfSYI"></script>
+    <script src="https://maps.google.com/maps/api/js?key=XX></script>
 
     <!-- Gmaps file -->
     <script src="{{ URL::asset('build/libs/gmaps/gmaps.min.js') }}"></script>
