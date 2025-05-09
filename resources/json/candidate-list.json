@@ -2,7 +2,7 @@
     {
         "id": 1,
         "type": "Full Time",
-        "candidateImg": "build/images/users/avatar-1.jpg",
+        "candidateImg": "images/users/avatar-1.jpg",
         "candidateName": "Steven Franklin",
         "position": "UI/UX Designer",
         "location": "Louisiana",
@@ -12,7 +12,7 @@
     },{
         "id": 2,
         "type": "Freelance",
-        "candidateImg": "build/images/users/avatar-2.jpg",
+        "candidateImg": "images/users/avatar-2.jpg",
         "candidateName": "Steven Franklin",
         "position": "Assistant / Shope Keeper",
         "location": "Hong-Kong",
@@ -22,7 +22,7 @@
     },{
         "id": 3,
         "type": "Part Time",
-        "candidateImg": "build/images/users/avatar-3.jpg",
+        "candidateImg": "images/users/avatar-3.jpg",
         "candidateName": "Charles Brown",
         "position": "Web Designer",
         "location": "Finlande",
@@ -32,7 +32,7 @@
     },{
         "id": 4,
         "type": "Internship",
-        "candidateImg": "build/images/users/avatar-4.jpg",
+        "candidateImg": "images/users/avatar-4.jpg",
         "candidateName": "Bonnie Harney",
         "position": "Web Developer",
         "location": "France",
@@ -42,7 +42,7 @@
     },{
         "id": 5,
         "type": "Internship",
-        "candidateImg": "build/images/users/avatar-5.jpg",
+        "candidateImg": "images/users/avatar-5.jpg",
         "candidateName": "Stephen Hadley",
         "position": "Graphic Designer",
         "location": "Danemark",
@@ -52,7 +52,7 @@
     },{
         "id": 6,
         "type": "Internship",
-        "candidateImg": "build/images/users/avatar-6.jpg",
+        "candidateImg": "images/users/avatar-6.jpg",
         "candidateName": "Henry Wells",
         "position": "Executive, HR Operations",
         "location": "Danemark",
@@ -62,7 +62,7 @@
     },{
         "id": 7,
         "type": "Full Time",
-        "candidateImg": "build/images/users/avatar-7.jpg",
+        "candidateImg": "images/users/avatar-7.jpg",
         "candidateName": "Adam Miller",
         "position": "Education Training",
         "location": "Colombie",
@@ -72,7 +72,7 @@
     },{
         "id": 8,
         "type": "Freelance",
-        "candidateImg": "build/images/users/avatar-8.jpg",
+        "candidateImg": "images/users/avatar-8.jpg",
         "candidateName": "Keith Gonzales",
         "position": "Product Manager",
         "location": "Brazil",

@@ -144,7 +144,7 @@ Array.prototype.slice.call(createContactForms).forEach(function (form) {
             );
 
             var memberImageValue
-            if (memberImgValue == "build/images/users/user-dummy-img.jpg") {
+            if (memberImgValue == "images/users/user-dummy-img.jpg") {
                 memberImageValue = ""
             } else {
                 memberImageValue = memberImg
@@ -250,7 +250,7 @@ function editContactList() {
                     document.getElementById("addContact-btn").innerHTML = "Update";
                     document.getElementById("userid-input").value = item.id;
                     if(item.memberImg == ""){
-                        document.getElementById("member-img").src = "build/images/users/user-dummy-img.jpg";
+                        document.getElementById("member-img").src = "images/users/user-dummy-img.jpg";
                     }else{
                         document.getElementById("member-img").src = item.memberImg;
                     }
@@ -281,7 +281,7 @@ Array.from(document.querySelectorAll(".addContact-modal")).forEach(function(elem
         document.getElementById("username-input").value = "";
         document.getElementById("email-input").value = "";
         document.getElementById("designation-input").value = "";
-        document.getElementById("member-img").src = "build/images/users/user-dummy-img.jpg";
+        document.getElementById("member-img").src = "images/users/user-dummy-img.jpg";
         $("#tag-input").select2({
             multiple: true,
         });

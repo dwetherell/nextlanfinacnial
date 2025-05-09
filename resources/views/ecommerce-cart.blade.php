@@ -36,7 +36,7 @@
                             <tbody>
                                 <tr class="product">
                                     <td>
-                                        <img src="{{ URL::asset('build/images/product/img-1.png') }}" alt="product-img" title="product-img"
+                                        <img src="{{ URL::asset('images/product/img-1.png') }}" alt="product-img" title="product-img"
                                             class="avatar-md" />
                                     </td>
                                     <td>
@@ -63,7 +63,7 @@
                                 </tr>
                                 <tr class="product">
                                     <td>
-                                        <img src="{{ URL::asset('build/images/product/img-2.png') }}" alt="product-img" title="product-img"
+                                        <img src="{{ URL::asset('images/product/img-2.png') }}" alt="product-img" title="product-img"
                                             class="avatar-md" />
                                     </td>
                                     <td>
@@ -90,7 +90,7 @@
                                 </tr>
                                 <tr class="product">
                                     <td>
-                                        <img src="{{ URL::asset('build/images/product/img-3.png') }}" alt="product-img" title="product-img"
+                                        <img src="{{ URL::asset('images/product/img-3.png') }}" alt="product-img" title="product-img"
                                             class="avatar-md" />
                                     </td>
                                     <td>
@@ -117,7 +117,7 @@
                                 </tr>
                                 <tr class="product">
                                     <td>
-                                        <img src="{{ URL::asset('build/images/product/img-4.png') }}" alt="product-img" title="product-img"
+                                        <img src="{{ URL::asset('images/product/img-4.png') }}" alt="product-img" title="product-img"
                                             class="avatar-md" />
                                     </td>
                                     <td>
@@ -144,7 +144,7 @@
                                 </tr>
                                 <tr class="product">
                                     <td>
-                                        <img src="{{ URL::asset('build/images/product/img-5.png') }}" alt="product-img" title="product-img"
+                                        <img src="{{ URL::asset('images/product/img-5.png') }}" alt="product-img" title="product-img"
                                             class="avatar-md" />
                                     </td>
                                     <td>
@@ -171,7 +171,7 @@
                                 </tr>
                                 <tr class="product">
                                     <td>
-                                        <img src="{{ URL::asset('build/images/product/img-6.png') }}" alt="product-img" title="product-img"
+                                        <img src="{{ URL::asset('images/product/img-6.png') }}" alt="product-img" title="product-img"
                                             class="avatar-md" />
                                     </td>
                                     <td>

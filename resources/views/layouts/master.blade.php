@@ -8,8 +8,8 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ URL::asset('build/images/favicon.ico') }}">
-    @include('layouts.head-css')
+    <link rel="shortcut icon" href="{{ URL::asset('images/favicon.ico') }}">
+
 
     <!-- Scripts -->
     @vite('resources/js/app.js')
@@ -44,8 +44,7 @@
     @include('layouts.right-sidebar')
     <!-- /Right-bar -->
 
-    <!-- JAVASCRIPT -->
-    @include('layouts.vendor-scripts')
+
 </body>
 
 </html>

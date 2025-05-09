@@ -152,7 +152,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/adobe.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/adobe.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Magento Developer</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -186,7 +186,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/adobe-photoshop.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/adobe-photoshop.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Product Designer</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -220,7 +220,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/airbnb.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/airbnb.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Marketing Director</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -254,7 +254,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/amazon.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/amazon.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Project Manager</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -288,7 +288,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/flutter.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/flutter.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">HTML Developer</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -322,7 +322,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/mailchimp.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/mailchimp.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Business Associate</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -356,7 +356,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/line.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/line.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Product Sales Specialist</a>
                         <small class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -390,7 +390,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/spotify.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/spotify.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Magento Developer</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -424,7 +424,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/wordpress.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/wordpress.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Magento Developer</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -458,7 +458,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/upwork.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/upwork.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Magento Developer</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -492,7 +492,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/sass.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/sass.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Magento Developer</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">
@@ -526,7 +526,7 @@
                     <div class="favorite-icon">
                         <a href="javascript:void(0)"><i class="uil uil-heart-alt fs-18"></i></a>
                     </div>
-                    <img src="{{ URL::asset('build/images/companies/reddit.svg') }}" alt="" height="50" class="mb-3">
+                    <img src="{{ URL::asset('images/companies/reddit.svg') }}" alt="" height="50" class="mb-3">
                     <h5 class="fs-17 mb-2"><a href="job-details" class="text-dark">Magento Developer</a> <small
                             class="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                     <ul class="list-inline mb-0">

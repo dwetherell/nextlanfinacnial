@@ -43,7 +43,7 @@
                         <div class="row justify-content-center mt-5 mb-2">
                             <div class="col-sm-6 col-8">
                                 <div>
-                                    <img src="{{ URL::asset('build/images/verification-img.png') }}" alt="" class="img-fluid">
+                                    <img src="{{ URL::asset('images/verification-img.png') }}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>

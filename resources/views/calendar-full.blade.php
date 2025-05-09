@@ -48,7 +48,7 @@
                             </div>
 
                             <div class="row justify-content-center mt-5">
-                                <img src="{{ URL::asset('build/images/verification-img.png') }}" alt="" class="img-fluid d-block">
+                                <img src="{{ URL::asset('images/verification-img.png') }}" alt="" class="img-fluid d-block">
                             </div>
                         </div>
                     </div>

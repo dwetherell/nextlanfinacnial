@@ -17,7 +17,7 @@
                     <div class="col-lg-4">
                         <div class="d-flex">
                             <div class="flex-shrink-0 me-3">
-                                <img src="{{ URL::asset('build/images/users/avatar-1.jpg') }}" alt="" class="avatar-md rounded-circle img-thumbnail">
+                                <img src="{{ URL::asset('images/users/avatar-1.jpg') }}" alt="" class="avatar-md rounded-circle img-thumbnail">
                             </div>
                             <div class="flex-grow-1 align-self-center">
                                 <div class="text-muted">
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                     <div class="col-5 align-self-end">
-                        <img src="{{ URL::asset('build/images/profile-img.png') }}" alt="" class="img-fluid">
+                        <img src="{{ URL::asset('images/profile-img.png') }}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -223,7 +223,7 @@
             <div class="card-body">
                 <h4 class="card-title mb-4">Sales Analytics</h4>
 
-                <div> 
+                <div>
                     <div id="donut-chart" data-colors='["--bs-primary", "--bs-success", "--bs-danger"]' class="apex-charts"></div>
                 </div>
 

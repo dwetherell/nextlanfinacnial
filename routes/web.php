@@ -7,10 +7,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('{any}', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
-
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

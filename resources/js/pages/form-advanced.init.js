@@ -97,7 +97,7 @@ File: Form Advanced Js File
             if (!state.id) {
                 return state.text;
             }
-            var baseUrl = "build/images/flags/select2";
+            var baseUrl = "images/flags/select2";
             var $state = $(
                 '<span><img src="' + baseUrl + '/' + state.element.value.toLowerCase() + '.png" class="img-flag" /> ' + state.text + '</span>'
             );

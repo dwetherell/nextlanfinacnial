@@ -98,7 +98,7 @@
                                         </div>
                                         <div class="avatar-lg">
                                             <div class="avatar-title bg-light rounded-circle">
-                                                <img src="{{ URL::asset('build/images/users/user-dummy-img.jpg') }}" id="member-img"
+                                                <img src="{{ URL::asset('images/users/user-dummy-img.jpg') }}" id="member-img"
                                                     class="avatar-md rounded-circle h-auto" />
                                             </div>
                                         </div>

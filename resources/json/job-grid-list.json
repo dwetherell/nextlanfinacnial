@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "build/images/companies/adobe.svg",
+        "image": "images/companies/adobe.svg",
         "jobTitle": "Magento Developer",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -11,7 +11,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 2,
-        "image": "build/images/companies/adobe-photoshop.svg",
+        "image": "images/companies/adobe-photoshop.svg",
         "jobTitle": "Product Designer",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -21,7 +21,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 3,
-        "image": "build/images/companies/airbnb.svg",
+        "image": "images/companies/airbnb.svg",
         "jobTitle": "Marketing Director",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -31,7 +31,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 4,
-        "image": "build/images/companies/amazon.svg",
+        "image": "images/companies/amazon.svg",
         "jobTitle": "Project Manager",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -41,7 +41,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 5,
-        "image": "build/images/companies/flutter.svg",
+        "image": "images/companies/flutter.svg",
         "jobTitle": "HTML Developer",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -51,7 +51,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 6,
-        "image": "build/images/companies/mailchimp.svg",
+        "image": "images/companies/mailchimp.svg",
         "jobTitle": "Business Associate",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -61,7 +61,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 7,
-        "image": "build/images/companies/line.svg",
+        "image": "images/companies/line.svg",
         "jobTitle": "Product Sales Specialist",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -71,7 +71,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 8,
-        "image": "build/images/companies/spotify.svg",
+        "image": "images/companies/spotify.svg",
         "jobTitle": "Magento Developer",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -81,7 +81,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 9,
-        "image": "build/images/companies/wordpress.svg",
+        "image": "images/companies/wordpress.svg",
         "jobTitle": "Magento Developer",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -91,7 +91,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 10,
-        "image": "build/images/companies/upwork.svg",
+        "image": "images/companies/upwork.svg",
         "jobTitle": "Magento Developer",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -101,7 +101,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 11,
-        "image": "build/images/companies/sass.svg",
+        "image": "images/companies/sass.svg",
         "jobTitle": "Magento Developer",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",
@@ -111,7 +111,7 @@
         "requirement": ["Full Time", "Urgent", "Private"]
     },{
         "id": 12,
-        "image": "build/images/companies/reddit.svg",
+        "image": "images/companies/reddit.svg",
         "jobTitle": "Magento Developer",
         "experience": "0-2 Yrs Exp",
         "companyName": "Skote Technology Pvt.Ltd",

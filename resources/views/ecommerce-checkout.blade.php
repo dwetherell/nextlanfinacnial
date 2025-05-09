@@ -423,7 +423,7 @@
                                                 <tbody>
                                                     <tr>
                                                         <th scope="row"><img
-                                                                src="{{ URL::asset('build/images/product/img-1.png') }}"
+                                                                src="{{ URL::asset('images/product/img-1.png') }}"
                                                                 alt="product-img" title="product-img" class="avatar-md">
                                                         </th>
                                                         <td>
@@ -436,7 +436,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th scope="row"><img
-                                                                src="{{ URL::asset('build/images/product/img-7.png') }}"
+                                                                src="{{ URL::asset('images/product/img-7.png') }}"
                                                                 alt="product-img" title="product-img" class="avatar-md">
                                                         </th>
                                                         <td>

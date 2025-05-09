@@ -9,7 +9,7 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ URL::asset('build/images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ URL::asset('images/favicon.ico') }}">
 
     <!-- owl.carousel css -->
     <link rel="stylesheet" href="{{ URL::asset('build/libs/owl.carousel/assets/owl.carousel.min.css') }}">
@@ -24,9 +24,9 @@
     <nav class="navbar navbar-expand-lg navigation fixed-top sticky">
         <div class="container">
             <a class="navbar-logo" href="index">
-                <img src="{{ URL::asset('build/images/logo-dark.png') }}" alt="" height="19"
+                <img src="{{ URL::asset('images/logo-dark.png') }}" alt="" height="19"
                     class="logo logo-dark">
-                <img src="{{ URL::asset('build/images/logo-light.png') }}" alt="" height="19"
+                <img src="{{ URL::asset('images/logo-light.png') }}" alt="" height="19"
                     class="logo logo-light">
             </a>
 
@@ -298,37 +298,37 @@
                     <div class="owl-carousel owl-theme clients-carousel" id="clients-carousel" dir="ltr">
                         <div class="item">
                             <div class="client-images">
-                                <img src="{{ URL::asset('build/images/clients/1.png') }}" alt="client-img"
+                                <img src="{{ URL::asset('images/clients/1.png') }}" alt="client-img"
                                     class="mx-auto img-fluid d-block">
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-images">
-                                <img src="{{ URL::asset('build/images/clients/2.png') }}" alt="client-img"
+                                <img src="{{ URL::asset('images/clients/2.png') }}" alt="client-img"
                                     class="mx-auto img-fluid d-block">
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-images">
-                                <img src="{{ URL::asset('build/images/clients/3.png') }}" alt="client-img"
+                                <img src="{{ URL::asset('images/clients/3.png') }}" alt="client-img"
                                     class="mx-auto img-fluid d-block">
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-images">
-                                <img src="{{ URL::asset('build/images/clients/4.png') }}" alt="client-img"
+                                <img src="{{ URL::asset('images/clients/4.png') }}" alt="client-img"
                                     class="mx-auto img-fluid d-block">
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-images">
-                                <img src="{{ URL::asset('build/images/clients/5.png') }}" alt="client-img"
+                                <img src="{{ URL::asset('images/clients/5.png') }}" alt="client-img"
                                     class="mx-auto img-fluid d-block">
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-images">
-                                <img src="{{ URL::asset('build/images/clients/6.png') }}" alt="client-img"
+                                <img src="{{ URL::asset('images/clients/6.png') }}" alt="client-img"
                                     class="mx-auto img-fluid d-block">
                             </div>
                         </div>
@@ -357,7 +357,7 @@
             <div class="row align-items-center pt-4">
                 <div class="col-md-6 col-sm-8">
                     <div>
-                        <img src="{{ URL::asset('build/images/crypto/features-img/img-1.png') }}" alt=""
+                        <img src="{{ URL::asset('images/crypto/features-img/img-1.png') }}" alt=""
                             class="img-fluid mx-auto d-block">
                     </div>
                 </div>
@@ -400,7 +400,7 @@
                 </div>
                 <div class="col-md-6  col-sm-8 ms-md-auto">
                     <div class="mt-4 me-md-0">
-                        <img src="{{ URL::asset('build/images/crypto/features-img/img-2.png') }}" alt=""
+                        <img src="{{ URL::asset('images/crypto/features-img/img-2.png') }}" alt=""
                             class="img-fluid mx-auto d-block">
                     </div>
                 </div>
@@ -562,7 +562,7 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('images/users/avatar-2.jpg') }}" alt=""
                                         class="rounded">
                                 </div>
 
@@ -599,7 +599,7 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('images/users/avatar-3.jpg') }}" alt=""
                                         class="rounded">
                                 </div>
 
@@ -636,7 +636,7 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('build/images/users/avatar-8.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('images/users/avatar-8.jpg') }}" alt=""
                                         class="rounded">
                                 </div>
                                 <div class="mt-3">
@@ -672,7 +672,7 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('build/images/users/avatar-5.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('images/users/avatar-5.jpg') }}" alt=""
                                         class="rounded">
                                 </div>
 
@@ -710,7 +710,7 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('build/images/users/avatar-1.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('images/users/avatar-1.jpg') }}" alt=""
                                         class="rounded">
                                 </div>
 
@@ -768,7 +768,7 @@
                 <div class="col-xl-4 col-sm-6">
                     <div class="blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
-                            <img src="{{ URL::asset('build/images/crypto/blog/img-1.jpg') }}" alt=""
+                            <img src="{{ URL::asset('images/crypto/blog/img-1.jpg') }}" alt=""
                                 class="rounded img-fluid mx-auto d-block">
                             <div class="badge bg-success blog-badge font-size-11">Cryptocurrency</div>
                         </div>
@@ -789,7 +789,7 @@
                     <div class="blog-box mb-4 mb-xl-0">
 
                         <div class="position-relative">
-                            <img src="{{ URL::asset('build/images/crypto/blog/img-2.jpg') }}" alt=""
+                            <img src="{{ URL::asset('images/crypto/blog/img-2.jpg') }}" alt=""
                                 class="rounded img-fluid mx-auto d-block">
                             <div class="badge bg-success blog-badge font-size-11">Cryptocurrency</div>
                         </div>
@@ -809,7 +809,7 @@
                 <div class="col-xl-4 col-sm-6">
                     <div class="blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
-                            <img src="{{ URL::asset('build/images/crypto/blog/img-3.jpg') }}" alt=""
+                            <img src="{{ URL::asset('images/crypto/blog/img-3.jpg') }}" alt=""
                                 class="rounded img-fluid mx-auto d-block">
                             <div class="badge bg-success blog-badge font-size-11">Cryptocurrency</div>
                         </div>
@@ -1251,7 +1251,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="mb-4">
-                        <img src="{{ URL::asset('build/images/logo-light.png') }}" alt="" height="20">
+                        <img src="{{ URL::asset('images/logo-light.png') }}" alt="" height="20">
                     </div>
 
                     <p class="mb-2">

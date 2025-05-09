@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "memberImg": "build/images/users/avatar-2.jpg",
+        "memberImg": "images/users/avatar-2.jpg",
         "userName": "Frank Kirk",
         "designation": "Frontend Developer",
         "email": "frank@skote.com",
@@ -20,7 +20,7 @@
     },
     {
         "id": 3,
-        "memberImg": "build/images/users/avatar-3.jpg",
+        "memberImg": "images/users/avatar-3.jpg",
         "userName": "Rafael Morales",
         "designation": "Backend Developer",
         "email": "Rafael@skote.com",
@@ -39,7 +39,7 @@
     },
     {
         "id": 5,
-        "memberImg": "build/images/users/avatar-4.jpg",
+        "memberImg": "images/users/avatar-4.jpg",
         "userName": "Minnie Walter",
         "designation": "Frontend Developer",
         "email": "minnie@skote.com",
@@ -48,7 +48,7 @@
     },
     {
         "id": 6,
-        "memberImg": "build/images/users/avatar-5.jpg",
+        "memberImg": "images/users/avatar-5.jpg",
         "userName": "Shirley Smith",
         "designation": "UI/UX Designer",
         "email": "shirley@skote.com",
@@ -67,7 +67,7 @@
     },
     {
         "id": 8,
-        "memberImg": "build/images/users/avatar-6.jpg",
+        "memberImg": "images/users/avatar-6.jpg",
         "userName": "Colin Melton",
         "designation": "Backend Developer",
         "email": "colin@skote.com",

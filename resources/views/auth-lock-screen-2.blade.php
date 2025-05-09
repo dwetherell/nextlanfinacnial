@@ -89,9 +89,9 @@
                                 <div class="d-flex flex-column h-100">
                                     <div class="mb-4 mb-md-5">
                                         <a href="index" class="d-block auth-logo">
-                                            <img src="{{ URL::asset('build/images/logo-dark.png') }}" alt="" height="18"
+                                            <img src="{{ URL::asset('images/logo-dark.png') }}" alt="" height="18"
                                                 class="auth-logo-dark">
-                                            <img src="{{ URL::asset('build/images/logo-light.png') }}" alt="" height="18"
+                                            <img src="{{ URL::asset('images/logo-light.png') }}" alt="" height="18"
                                                 class="auth-logo-light">
                                         </a>
                                     </div>
@@ -106,7 +106,7 @@
                                             <form class="form-horizontal" action="index">
 
                                                 <div class="user-thumb text-center mb-4">
-                                                    <img src="{{ URL::asset('build/images/users/avatar-1.jpg') }}"
+                                                    <img src="{{ URL::asset('images/users/avatar-1.jpg') }}"
                                                         class="rounded-circle img-thumbnail avatar-md" alt="thumbnail">
                                                     <h5 class="font-size-15 mt-3">Maria Laird</h5>
                                                 </div>
