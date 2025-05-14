@@ -2,9 +2,7 @@
 // _layouts.scss
 //
 
-body {
-    background-color: #0a58ca !important;
-}
+
 body[data-layout-size="boxed"] {
     background-color: var(--#{$prefix}boxed-body-bg);
     #layout-wrapper {
