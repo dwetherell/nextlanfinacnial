@@ -7,6 +7,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/dashboard-saas', [App\Http\Controllers\HomeController::class, 'dashboardSaas'])->name('dashboard-saas');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
