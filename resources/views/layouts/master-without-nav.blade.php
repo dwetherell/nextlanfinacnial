@@ -13,7 +13,17 @@
         <link rel="shortcut icon" href="{{ URL::asset('images/favicon.ico') }}">
 
         @include('layouts.head-css')
-  </head>
+
+        @if (App::environment('local'))
+            @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+        @else
+            <link rel="preload" as="style" href="{{ asset('build/css/app.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('build/css/app.min.css') }}">
+            <script src="{{ asset('build/js/app.js') }}"></script>
+        @endif
+
+
+    </head>
 
     @yield('body')
 

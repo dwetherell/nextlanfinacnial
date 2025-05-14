@@ -11,8 +11,14 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
-        <!-- Scripts and styles compiled by Vite -->
-        @vite(['resources/js/app.js'])
+        @if (App::environment('local'))
+            @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+        @else
+            <link rel="preload" as="style" href="{{ asset('build/css/app.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('build/css/app.min.css') }}">
+            <script src="{{ asset('build/js/app.js') }}"></script>
+        @endif
+
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
