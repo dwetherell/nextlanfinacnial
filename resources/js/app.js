@@ -1,7 +1,7 @@
 // Laravel's bootstrap (includes Axios, CSRF, etc.)
 
 // Load SCSS (theme styles)
-import '../scss/app.scss';
+//import '../scss/app.scss';
 
 import './bootstrap';
 

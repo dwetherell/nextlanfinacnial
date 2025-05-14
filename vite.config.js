@@ -21,7 +21,10 @@ export default defineConfig({
     },
     plugins: [
         laravel({
-            input: ['resources/js/app.js'],
+            input: [
+                'resources/scss/app.scss', // ✅ Add SCSS here
+                'resources/js/app.js'
+            ],
             refresh: true,
         }),
         viteStaticCopy({

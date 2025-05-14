@@ -11,10 +11,10 @@
     <link rel="shortcut icon" href="{{ URL::asset('images/favicon.ico') }}">
 
 
-    <!-- Scripts -->
     @if (App::environment('local'))
-        @vite(['resources/js/app.js'])
+        @vite(['resources/scss/app.scss', 'resources/js/app.js'])
     @else
+        <link rel="preload" as="style" href="{{ asset('build/css/app.min.css') }}">
         <link rel="stylesheet" href="{{ asset('build/css/app.min.css') }}">
         <script src="{{ asset('build/js/app.js') }}"></script>
     @endif
