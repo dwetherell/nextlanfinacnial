@@ -12,7 +12,12 @@
 
 
     <!-- Scripts -->
-    @vite('resources/js/app.js')
+    @if (App::environment('local'))
+        @vite(['resources/js/app.js'])
+    @else
+        <link rel="stylesheet" href="{{ asset('build/css/app.min.css') }}">
+        <script src="{{ asset('build/js/app.js') }}"></script>
+    @endif
 
 </head>
 
