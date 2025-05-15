@@ -3,9 +3,6 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::get('/dashboard-saas', [App\Http\Controllers\HomeController::class, 'dashboardSaas'])->name('dashboard-saas');
 Route::get('/apps-filemanager', [App\Http\Controllers\HomeController::class, 'appsFilemanager'])->name('apps-filemanager');
@@ -150,7 +147,13 @@ Route::get('/ui-video', [App\Http\Controllers\HomeController::class, 'uiVideo'])
 Route::get('/welcome', [App\Http\Controllers\HomeController::class, 'welcome'])->name('welcome');
 Route::get('/yajra-datatable', [App\Http\Controllers\HomeController::class, 'yajraDatatable'])->name('yajra-datatable');
 
-Route::get('/dashboard', function () {
+
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+
+Route::get('/', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
