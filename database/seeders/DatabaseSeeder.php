@@ -31,8 +31,8 @@ class DatabaseSeeder extends Seeder
       //  $adminRole->givePermissionTo($dashboardPermission, $adminPermission);
       //  $userRole->givePermissionTo($dashboardPermission);
 
-        $user = User::find(1); // example user
-        $user->assignRole('admin');
+        $user = User::find(2); // example user
+        $user->assignRole('platform_owner');
 
     }
 }

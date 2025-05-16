@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Platform\UserController;
+
 
 Route::get('/dashboard-saas', [App\Http\Controllers\HomeController::class, 'dashboardSaas'])->name('dashboard-saas');
 Route::get('/apps-filemanager', [App\Http\Controllers\HomeController::class, 'appsFilemanager'])->name('apps-filemanager');
@@ -156,6 +158,16 @@ Route::get('/yajra-datatable', [App\Http\Controllers\HomeController::class, 'yaj
 Route::get('/', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+
+
+Route::prefix('platform')
+    ->middleware(['auth', 'role:platform_owner'])
+    ->name('platform.')
+    ->group(function () {
+        Route::resource('users', UserController::class)->except(['create', 'store']);
+    });
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
