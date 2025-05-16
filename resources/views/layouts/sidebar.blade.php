@@ -11,6 +11,15 @@
                 <li class="menu-title" key="t-menu">@lang('translation.Menu')</li>
 
                 <li>
+                    <a href="/" class="waves-effect">
+                        <i class="bx bx-list-ul"></i>
+                        <span key="t-home">Dashboard</span>
+                    </a>
+                </li>
+
+
+
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-home-circle"></i>
                         <span key="t-dashboards">Platform Settings</span>
@@ -20,6 +29,11 @@
                         <li><a href="/platform/employers" key="t-default">Employers</a></li>
                     </ul>
                 </li>
+
+
+
+                <li class="menu-title" key="t-backend">Below are Templates</li>
+
 
 
                 <li>
@@ -35,6 +49,9 @@
                         <li><a href="dashboard-job">@lang('translation.Jobs')</a></li>
                     </ul>
                 </li>
+
+
+
 
                 <li>
                     <a href="javascript: void(0);" class="waves-effect">
