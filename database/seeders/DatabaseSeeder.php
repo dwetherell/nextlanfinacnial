@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,10 +17,22 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-            'password' => Hash::make('password123'),
-        ]);
+      //  User::factory()->create([
+     //       'name' => 'Test User',
+      //      'email' => 'test@example.com',
+      //      'password' => Hash::make('password123'),
+      //  ]);
+       // $adminRole = Role::create(['name' => 'admin']);
+      //  $userRole = Role::create(['name' => 'user']);
+
+        $dashboardPermission = Permission::create(['name' => 'view dashboard']);
+        $adminPermission = Permission::create(['name' => 'manage users']);
+
+      //  $adminRole->givePermissionTo($dashboardPermission, $adminPermission);
+      //  $userRole->givePermissionTo($dashboardPermission);
+
+        $user = User::find(1); // example user
+        $user->assignRole('admin');
+
     }
 }
