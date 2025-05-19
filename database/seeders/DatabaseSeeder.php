@@ -5,8 +5,8 @@ use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Spatie\Permission\Models\Role;
-use Spatie\Permission\Models\Permission;
+use App\Models\Role;
+use App\Models\Permission; // ✅ use your custom model with HasUuids
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,6 +15,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+
+
         // User::factory(10)->create();
 
       //  User::factory()->create([
@@ -25,14 +27,17 @@ class DatabaseSeeder extends Seeder
        // $adminRole = Role::create(['name' => 'admin']);
       //  $userRole = Role::create(['name' => 'user']);
 
-        $dashboardPermission = Permission::create(['name' => 'view dashboard']);
-        $adminPermission = Permission::create(['name' => 'manage users']);
+     //   $dashboardPermission = Permission::create(['name' => 'view dashboard']);
+     //   $adminPermission = Permission::create(['name' => 'manage users']);
 
       //  $adminRole->givePermissionTo($dashboardPermission, $adminPermission);
       //  $userRole->givePermissionTo($dashboardPermission);
 
-        $user = User::find(2); // example user
-        $user->assignRole('platform_owner');
+
+        $this->call([
+            RoleSeeder::class,
+            OrganizationUserSeeder::class,
+        ]);
 
     }
 }

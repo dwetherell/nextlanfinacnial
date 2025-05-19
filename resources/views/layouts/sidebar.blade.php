@@ -27,6 +27,7 @@
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="/platform/users" key="t-default">Users</a></li>
                         <li><a href="/platform/employers" key="t-default">Employers</a></li>
+                        <li><a href="/platform/organizations" key="t-default">Organizations</a></li>
                     </ul>
                 </li>
 

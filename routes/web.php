@@ -6,6 +6,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Platform\UserController;
 use App\Http\Controllers\Platform\EmployerController;
 
+use App\Http\Controllers\Platform\OrganizationController;
+
+
 Route::get('/dashboard-saas', [App\Http\Controllers\HomeController::class, 'dashboardSaas'])->name('dashboard-saas');
 Route::get('/apps-filemanager', [App\Http\Controllers\HomeController::class, 'appsFilemanager'])->name('apps-filemanager');
 Route::get('/auth-confirm-mail', [App\Http\Controllers\HomeController::class, 'authConfirmMail'])->name('auth-confirm-mail');
@@ -175,7 +178,10 @@ Route::prefix('platform')
     ->name('platform.')
     ->group(function () {
         Route::resource('employers', EmployerController::class);
+        Route::resource('organizations', OrganizationController::class);
     });
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

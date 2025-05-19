@@ -1,22 +1,42 @@
 <?php
 
 namespace Database\Seeders;
-use Spatie\Permission\Models\Role;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Role; // ✅ MUST use your Role model
+use App\Models\Permission;
 
 class RoleSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        Role::firstOrCreate(['name' => 'user']);
-        Role::firstOrCreate(['name' => 'admin']);
-        Role::firstOrCreate(['name' => 'platform_owner']);
+        $dashboardPermission = Permission::firstOrCreate(
+            ['name' => 'view dashboard'],
+            ['guard_name' => 'web']
+        );
 
+        $manageUsers = Permission::firstOrCreate(
+            ['name' => 'manage users'],
+            ['guard_name' => 'web']
+        );
 
+        $platformOwner = Role::firstOrCreate(
+            ['name' => 'platform_owner'],
+            ['guard_name' => 'web']
+        );
+
+        $admin = Role::firstOrCreate(
+            ['name' => 'admin'],
+            ['guard_name' => 'web']
+        );
+
+        $user = Role::firstOrCreate(
+            ['name' => 'user'],
+            ['guard_name' => 'web']
+        );
+
+        $platformOwner->syncPermissions([$dashboardPermission, $manageUsers]);
+        $admin->syncPermissions([$dashboardPermission]);
+        $user->syncPermissions([$dashboardPermission]);
     }
 }
