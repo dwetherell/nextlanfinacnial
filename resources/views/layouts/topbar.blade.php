@@ -5,19 +5,19 @@
             <div class="navbar-brand-box">
                 <a href="/" class="logo logo-dark">
                     <span class="logo-sm">
-                        <img src="{{ URL::asset('images/nextlane-small.png') }}" alt="" height="40">
+                        <img src="{{ URL::asset('images/nextlane-small.png') }}" alt="" height="50">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ URL::asset('images/nextlane-logo.png') }}" alt="" height="40">
+                        <img src="{{ URL::asset('images/nextlane-logo.png') }}" alt="" height="50">
                     </span>
                 </a>
 
                 <a href="/" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{ URL::asset('images/nextlane-small.png') }}" alt="" height="40">
+                        <img src="{{ URL::asset('images/nextlane-small.png') }}" alt="" height="50">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ URL::asset('images/nextlane-logo.png') }}" alt="" height="40">
+                        <img src="{{ URL::asset('images/nextlane-logo.png') }}" alt="" height="50">
                     </span>
                 </a>
             </div>
